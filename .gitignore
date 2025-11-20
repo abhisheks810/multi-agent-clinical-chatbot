@@ -1,0 +1,29 @@
+# Poetry / virtual environments
+.venv/
+__pycache__/
+*.pyc
+
+# Local env files / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# MLflow local runs
+mlruns/
+mlartifacts/
+
+# Chroma persistent store
+chroma_db/
+schema_chroma_db/
+*.sqlite3
+
+# OS junk
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+data/

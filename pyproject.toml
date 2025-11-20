@@ -1,0 +1,34 @@
+[project]
+name = "langgraph_rag"
+version = "0.1.0"
+description = "Provides chat access into structured patient data"
+authors = [
+    {name = "Abhishek Srivastava",email = "abhisheks810@inmap.tech"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "langgraph (>=1.0.3,<2.0.0)",
+    "langchain-core (>=1.0.5,<2.0.0)",
+    "langchain-community (>=0.4.1,<0.5.0)",
+    "openai (>=2.8.0,<3.0.0)",
+    "chromadb (>=1.3.4,<2.0.0)",
+    "tiktoken (>=0.12.0,<0.13.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "numpy (>=2.3.4,<3.0.0)",
+    "python-dotenv (>=1.2.1,<2.0.0)",
+    "mlflow (>=3.6.0,<4.0.0)",
+    "streamlit (>=1.51.0,<2.0.0)",
+    "pydantic (>=2.12.4,<3.0.0)",
+    "ipykernel (>=6.0.0,<7.0.0)",
+    "jupyterlab (>=4.4.10,<5.0.0)"
+]
+
+[tool.poetry]
+packages = [
+    { include = "langgraph_rag", from = "src" }
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

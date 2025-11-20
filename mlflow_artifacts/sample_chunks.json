@@ -1,0 +1,62 @@
+[
+  {
+    "id": "patients:P-0000012:0:chunk_0",
+    "text": "GENDER: Female\nRACE: White\nETHNICITY: Non-Spanish; Non-Hispanic\nCURRENT_AGE_DEID: 68.0\nSTAGE_HIGHEST_RECORDED: Stage 1-3\nNUM_ICDO_DX: 2\nADRENAL_GLANDS: No\nBONE: No\nCNS_BRAIN: No\nINTRA_ABDOMINAL: Yes\nLIVER: No\nLUNG: Yes\nLYMPH_NODES: Yes\nOTHER: Yes\nPLEURA: No\nREPRODUCTIVE_ORGANS: No\nSMOKING_PREDICTION",
+    "metadata": {
+      "source": "msk_chord",
+      "table_name": "patients",
+      "id_column": "PATIENT_ID",
+      "row_id": "P-0000012",
+      "row_index": 0,
+      "chunk_index": 0
+    }
+  },
+  {
+    "id": "patients:P-0000015:1:chunk_0",
+    "text": "GENDER: Female\nRACE: White\nETHNICITY: Non-Spanish; Non-Hispanic\nCURRENT_AGE_DEID: 45.0\nSTAGE_HIGHEST_RECORDED: Stage 1-3\nNUM_ICDO_DX: 1\nADRENAL_GLANDS: No\nBONE: Yes\nCNS_BRAIN: Yes\nINTRA_ABDOMINAL: No\nLIVER: Yes\nLUNG: Yes\nLYMPH_NODES: Yes\nOTHER: Yes\nPLEURA: Yes\nREPRODUCTIVE_ORGANS: No\nSMOKING_PREDICT",
+    "metadata": {
+      "source": "msk_chord",
+      "table_name": "patients",
+      "id_column": "PATIENT_ID",
+      "row_id": "P-0000015",
+      "row_index": 1,
+      "chunk_index": 0
+    }
+  },
+  {
+    "id": "patients:P-0000036:2:chunk_0",
+    "text": "GENDER: Female\nRACE: Other\nETHNICITY: Non-Spanish; Non-Hispanic\nCURRENT_AGE_DEID: 68.0\nSTAGE_HIGHEST_RECORDED: Stage 4\nNUM_ICDO_DX: 1\nADRENAL_GLANDS: No\nBONE: Yes\nCNS_BRAIN: No\nINTRA_ABDOMINAL: No\nLIVER: Yes\nLUNG: Yes\nLYMPH_NODES: Yes\nOTHER: No\nPLEURA: Yes\nREPRODUCTIVE_ORGANS: No\nSMOKING_PREDICTIONS",
+    "metadata": {
+      "source": "msk_chord",
+      "table_name": "patients",
+      "id_column": "PATIENT_ID",
+      "row_id": "P-0000036",
+      "row_index": 2,
+      "chunk_index": 0
+    }
+  },
+  {
+    "id": "patients:P-0000041:3:chunk_0",
+    "text": "GENDER: Female\nRACE: White\nETHNICITY: Non-Spanish; Non-Hispanic\nCURRENT_AGE_DEID: 53.0\nSTAGE_HIGHEST_RECORDED: Stage 1-3\nNUM_ICDO_DX: 1\nADRENAL_GLANDS: No\nBONE: Yes\nCNS_BRAIN: Yes\nINTRA_ABDOMINAL: No\nLIVER: Yes\nLUNG: No\nLYMPH_NODES: No\nOTHER: Yes\nPLEURA: Yes\nREPRODUCTIVE_ORGANS: No\nSMOKING_PREDICTIO",
+    "metadata": {
+      "source": "msk_chord",
+      "table_name": "patients",
+      "id_column": "PATIENT_ID",
+      "row_id": "P-0000041",
+      "row_index": 3,
+      "chunk_index": 0
+    }
+  },
+  {
+    "id": "patients:P-0000066:4:chunk_0",
+    "text": "GENDER: Female\nRACE: White\nETHNICITY: Non-Spanish; Non-Hispanic\nCURRENT_AGE_DEID: 71.0\nSTAGE_HIGHEST_RECORDED: Stage 1-3\nNUM_ICDO_DX: 1\nADRENAL_GLANDS: No\nBONE: Yes\nCNS_BRAIN: No\nINTRA_ABDOMINAL: No\nLIVER: Yes\nLUNG: Yes\nLYMPH_NODES: Yes\nOTHER: Yes\nPLEURA: Yes\nREPRODUCTIVE_ORGANS: Yes\nSMOKING_PREDICT",
+    "metadata": {
+      "source": "msk_chord",
+      "table_name": "patients",
+      "id_column": "PATIENT_ID",
+      "row_id": "P-0000066",
+      "row_index": 4,
+      "chunk_index": 0
+    }
+  }
+]

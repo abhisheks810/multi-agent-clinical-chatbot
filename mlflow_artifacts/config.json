@@ -1,0 +1,16 @@
+{
+  "tables": [
+    {
+      "name": "patients",
+      "path": "data/patients.txt",
+      "id_column": "PATIENT_ID",
+      "text_columns": null
+    }
+  ],
+  "metadata_text_path": "data/clinical_patient_meta.txt",
+  "persist_dir": "chroma_db",
+  "collection_name": "patient_docs",
+  "embedding_model": "text-embedding-3-large",
+  "chunk_token_size": 800,
+  "chunk_overlap": 400
+}
